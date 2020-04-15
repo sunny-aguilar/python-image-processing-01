@@ -8,7 +8,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import os
 
-
+# directory to iterate over
+directory = './'
 
 
 
