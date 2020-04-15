@@ -11,8 +11,10 @@ import os
 # directory to iterate over
 directory = './'
 
-
-
+# iterate over files in directory
+for filename in os.listdir(directory):
+    if filename.endswith('.txt'):
+        # do stuff here to file
 
 
 
