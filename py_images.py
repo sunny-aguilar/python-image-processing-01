@@ -29,7 +29,7 @@ for file in os.listdir(directory):
 
         # img = Image.resize(newsize)
         # print(img.format, img.size, img.mode)
-        print(file)
+        # print(file)
 
 
 
