@@ -10,7 +10,7 @@ import os, sys
 from PIL import Image
 
 # directory to iterate over
-directory = './'
+directory = './images'
 
 # iterate over files in directory
 for filename in os.listdir(directory):
