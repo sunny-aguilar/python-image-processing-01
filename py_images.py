@@ -15,10 +15,10 @@ directory = './images'
 
 # iterate over files in directory
 for file in os.listdir(directory):
-    if file.endswith('.jpg') or file.endswith('.png'):
-        print(file)
-        # img = Image.open(file)
-        # img.rotate(45).show()
+    # if file.endswith('.jpg') or file.endswith('.png'):
+    print(file)
+    # img = Image.open(file)
+    # img.rotate(45).show()
 
 
 
