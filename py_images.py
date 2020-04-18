@@ -7,6 +7,7 @@
 #   Date:       April 15, 2020
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import os, sys
+from PIL import Image
 
 # directory to iterate over
 directory = './'
