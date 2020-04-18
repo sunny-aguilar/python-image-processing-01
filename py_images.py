@@ -20,7 +20,7 @@ for file in os.listdir(directory):
     # img = Image.open(file)
     # img.rotate(45).show()
     img = Image.open(file)
-    print(img.format)
+    img.rotate(90).show()
 
 
 
