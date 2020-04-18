@@ -22,7 +22,7 @@ for file in os.listdir(directory):
         img = Image.open(file_loc)
 
         # rotate image 90 degrees
-        # img.rotate(90).show()
+        img.rotate(90).show()
 
         # # new size
         # newsize = (128, 128)
