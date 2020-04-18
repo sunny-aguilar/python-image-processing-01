@@ -17,7 +17,7 @@ for filename in os.listdir(directory):
     if filename.endswith('.png'):
         # do stuff here to file
         img = Image.open('img1.jpg')
-        im.rotate(45).show()
+        img.rotate(45).show()
 
 
 
