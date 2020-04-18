@@ -25,7 +25,7 @@ if [ "$1" == 'push' ]; then
     # call function
     push_commit
     exit 0
-elif [  ]; then
+elif [ "$1" ]; then
     # call function
     commit
     exit 0
