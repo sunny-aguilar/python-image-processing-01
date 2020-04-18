@@ -20,7 +20,9 @@ for file in os.listdir(directory):
     if not file.endswith('.DS_Store'):
         file_loc = './images/' + file
         img = Image.open(file_loc)
-        resized = Image.resize(img)
+
+        #
+        img = Image.resize( () )
         # print(img.format, img.size, img.mode)
         # print(file)
         # img.rotate(90).show()
