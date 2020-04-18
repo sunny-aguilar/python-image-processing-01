@@ -17,7 +17,7 @@ directory = './images'
 for filename in os.listdir(directory):
     if filename.endswith('.jpg'):
         # do stuff here to file
-        print("FOUND")
+        #
         # img = Image.open('img1.jpg')
         # img.rotate(45).show()
 
