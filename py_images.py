@@ -22,14 +22,14 @@ for file in os.listdir(directory):
         img = Image.open(file_loc)
 
         # rotate image 90 degrees
-        img.rotate(90).show()
+        # img.rotate(90).show()
 
-        # new size
-        newsize = (128, 128)
+        # # new size
+        # newsize = (128, 128)
 
-        img = Image.resize(newsize)
+        # img = Image.resize(newsize)
         # print(img.format, img.size, img.mode)
-        # print(file)
+        print(file)
 
 
 
