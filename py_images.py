@@ -25,7 +25,7 @@ for file in os.listdir(directory):
         img.rotate(90).show()
 
         # # new size
-        # newsize = (128, 128)
+        newsize = (128, 128)
 
         # img = Image.resize(newsize)
         # print(img.format, img.size, img.mode)
