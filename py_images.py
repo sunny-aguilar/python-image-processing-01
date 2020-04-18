@@ -14,9 +14,9 @@ directory = './images'
 
 # iterate over files in directory
 for filename in os.listdir(directory):
-    if filename.endswith('.txt'):
+    if filename.endswith('.png'):
         # do stuff here to file
-        
+        im = Image.open('')
 
 
 
