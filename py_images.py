@@ -29,11 +29,9 @@ for file in os.listdir(directory):
         newsize = (128, 128)
 
         # rotate image 90 degrees
-        img.rotate(90).show()
+        img.rotate(90).resize(newsize).show()
 
-        # img = Image.resize(newsize).show()
-        img = Image.new('RGB', newsize).show()
-        print(img.format, img.size, img.mode)
+        # print(img.format, img.size, img.mode)
         # print(file)
 
 
