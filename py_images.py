@@ -8,16 +8,17 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import os, sys
 from PIL import Image
-print('PIL', Image.__version__)
+#print('PIL', Image.__version__)
 # directory to iterate over
 directory = './images'
 
 # iterate over files in directory
 for filename in os.listdir(directory):
-    if filename.endswith('.png'):
+    if filename.endswith('.jpg'):
         # do stuff here to file
-        img = Image.open('img1.jpg')
-        img.rotate(45).show()
+        print("FOUND")
+        # img = Image.open('img1.jpg')
+        # img.rotate(45).show()
 
 
 
