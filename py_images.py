@@ -17,9 +17,10 @@ directory = './images'
 for file in os.listdir(directory):
     # if file.endswith('ic_add_location_black_48dp'):
     # img = Image.open('./images/ic_add_location_black_48dp')
-    file_loc = './images/' + file
-    img = Image.open(file_loc)
-    print(img.format, img.size, img.mode)
+    if not file.endswith('.DS_Store'):
+        file_loc = './images/' + file
+        img = Image.open(file_loc)
+        print(img.format, img.size, img.mode)
     # img.rotate(90).show()
 
 
