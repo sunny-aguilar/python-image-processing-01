@@ -18,7 +18,6 @@ for file in os.listdir(directory):
     if file.endswith('.jpg') or file.endswith('.png'):
         print(file)
 
-
     # img = Image.open(file)
     # img.rotate(45).show()
 
