@@ -25,7 +25,7 @@ for file in os.listdir(directory):
         img = Image.resize( () )
         # print(img.format, img.size, img.mode)
         # print(file)
-        # img.rotate(90).show()
+        img.rotate(90).show()
 
 
 
