@@ -9,6 +9,7 @@
 import os, sys
 from PIL import Image
 #print('PIL', Image.__version__)
+
 # directory to iterate over
 directory = './images'
 
