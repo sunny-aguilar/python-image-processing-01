@@ -6,7 +6,7 @@
 #   Author:     Sandro Aguilar
 #   Date:       April 15, 2020
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-import os, sys
+import os, sys, PIL
 from PIL import Image
 #print('PIL', Image.__version__)
 
@@ -15,28 +15,24 @@ directory = './images'
 
 # iterate over files in directory
 for file in os.listdir(directory):
-    # if file.endswith('ic_add_location_black_48dp'):
-    # img = Image.open('./images/ic_add_location_black_48dp')
+
     if not file.endswith('.DS_Store'):
         # file location and name
-        # file_loc = './images/' + file
-        file_loc = './images/ic_add_location_black_48dp'
+        file_loc = './images/'
 
         # open the file
-        img = Image.open(file_loc)
-
-        # # new size
-        newsize = (128, 128)
+        img = Image.open(file_loc + file)
 
         # rotate image 90 degrees
-        img.rotate(90).resize(newsize).show()
+        img = img.rotate(90)
+        
+        # resize image
+        newsize = (128, 128)
+        img = img.resize(newsize)
 
-        # print(img.format, img.size, img.mode)
-        # print(file)
+        # all of this can be done with a one-liner since each method returs an object
+        # img = Image.rotate(90).resize(newsize).convert('RGB').save(save_location)
 
-
-file_loc = './images/ic_add_location_black_48dp'
-img = Image.open(file_loc)
-newsize = (128, 128)
-img.rotate(90).resize(newsize).show()
-
+        # save file
+        save_location = './new_images/' + file + '.jpeg'
+        img.convert('RGB').save(save_location)
