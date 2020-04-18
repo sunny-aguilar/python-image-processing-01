@@ -15,7 +15,8 @@ directory = './images'
 
 # iterate over files in directory
 for filename in os.listdir(directory):
-    if filename.endswith('.jpg'):
+    print(filename)
+    # if filename.endswith('.jpg'):
         # do stuff here to file
         # print("FOUND")
         img = Image.open('img1.jpg')
