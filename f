@@ -18,6 +18,9 @@ if [ "$1" == 'push' ]; then
     # call function
     push_commit
     exit 0
+elif []; then
+    # call function
+    commit
 
 elif [ "$1" == 'run' ]; then
     # run Python script
