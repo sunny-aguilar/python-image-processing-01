@@ -14,26 +14,28 @@ from PIL import Image
 directory = './images'
 
 # iterate over files in directory
-# for file in os.listdir(directory):
-#     # if file.endswith('ic_add_location_black_48dp'):
-#     # img = Image.open('./images/ic_add_location_black_48dp')
-#     if not file.endswith('.DS_Store'):
-#         # file location and name
-#         # file_loc = './images/' + file
-#         file_loc = './images/ic_add_location_black_48dp'
+for file in os.listdir(directory):
+    # if file.endswith('ic_add_location_black_48dp'):
+    # img = Image.open('./images/ic_add_location_black_48dp')
+    if not file.endswith('.DS_Store'):
+        # file location and name
+        # file_loc = './images/' + file
+        file_loc = './images/ic_add_location_black_48dp'
 
-#         # open the file
-#         img = Image.open(file_loc)
+        # open the file
+        img = Image.open(file_loc)
 
-#         # rotate image 90 degrees
-#         img.rotate(90).show()
+        # # new size
+        newsize = (128, 128)
+        
+        # rotate image 90 degrees
+        img.rotate(90).show()
 
-#         # # new size
-#         newsize = (128, 128)
 
-#         # img = Image.resize(newsize).show()
-#         img = Image.new('RGB', newsize).show()
-        # print(img.format, img.size, img.mode)
+
+        # img = Image.resize(newsize).show()
+        img = Image.new('RGB', newsize).show()
+        print(img.format, img.size, img.mode)
         # print(file)
 
 
@@ -42,5 +44,3 @@ img = Image.open(file_loc)
 newsize = (128, 128)
 img.rotate(90).resize(newsize).show()
 
-
-# img = img.resize( size2 ).show()
