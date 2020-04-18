@@ -16,7 +16,7 @@ directory = './images'
 for filename in os.listdir(directory):
     if filename.endswith('.png'):
         # do stuff here to file
-        im = Image.open('')
+        im = Image.open('img1.jpg')
 
 
 
