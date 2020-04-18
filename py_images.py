@@ -21,7 +21,7 @@ for file in os.listdir(directory):
         # file location and name
         file_loc = './images/' + file
 
-        #
+        # open the file
         img = Image.open(file_loc)
 
         # rotate image 90 degrees
