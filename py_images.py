@@ -19,8 +19,8 @@ for file in os.listdir(directory):
     # print(file)
     # img = Image.open(file)
     # img.rotate(45).show()
-    img = img.format
-    print(img)
+    img = Image.open(file)
+    print(img.format)
 
 
 
