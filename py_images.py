@@ -21,11 +21,13 @@ for file in os.listdir(directory):
         file_loc = './images/' + file
         img = Image.open(file_loc)
 
+        # rotate image 90 degrees
+        img.rotate(90).show()
+
         # new size
         img = Image.resize( () )
         # print(img.format, img.size, img.mode)
         # print(file)
-        img.rotate(90).show()
 
 
 
