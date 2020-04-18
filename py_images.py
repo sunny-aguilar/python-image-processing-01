@@ -19,7 +19,7 @@ for file in os.listdir(directory):
         print(file)
         img = Image.open('./images/ic_add_location_black_48dp')
         print(img.format, img.size, img.mode)
-        img.rotate(45).show()
+        img.rotate(90).show()
 
 
 
