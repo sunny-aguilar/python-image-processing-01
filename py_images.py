@@ -15,7 +15,7 @@ directory = './images'
 
 # iterate over files in directory
 for file in os.listdir(directory):
-    if file.endswith('.jpg'):
+    if file.endswith('.jpg') or file.endswith(''):
         print(file)
 
 
