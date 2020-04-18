@@ -16,11 +16,11 @@ directory = './images'
 # iterate over files in directory
 for file in os.listdir(directory):
     if file.endswith('ic_add_location_black_48dp'):
-        # print(file)
+        print('FOUND')
         # img = Image.open(file)
         # img.rotate(45).show()
-        img = Image.open(file)
-        print(img.format, img.size, img.mode)
+        # img = Image.open(file)
+        # print(img.format, img.size, img.mode)
 
 
 
