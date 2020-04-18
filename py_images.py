@@ -11,7 +11,7 @@ from PIL import Image
 #print('PIL', Image.__version__)
 
 # directory to iterate over
-directory = './images'
+directory = '/images'
 
 # iterate over files in directory
 for file in os.listdir(directory):
