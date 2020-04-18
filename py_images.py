@@ -14,7 +14,7 @@ from PIL import Image
 directory = './images'
 
 # iterate over files in directory
-for filename in os.listdir(directory):
+for file in os.listdir(directory):
     print(filename)
     # if filename.endswith('.jpg'):
 
