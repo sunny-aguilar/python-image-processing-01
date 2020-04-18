@@ -39,9 +39,8 @@ directory = './images'
 
 file_loc = './images/ic_add_location_black_48dp'
 img = Image.open(file_loc)
-img.rotate(90).show()
-size1 = (128, 128)
-size2 = (400, 400)
+newsize = (128, 128)
+img.rotate(90).resize(newsize).show()
 
-img = Image.new('RGB', size1).show()
-img = Image.new('1', size2).show()
+
+# img = img.resize( size2 ).show()
