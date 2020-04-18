@@ -21,6 +21,7 @@ if [ "$1" == 'push' ]; then
 elif []; then
     # call function
     commit
+    exit 0
 
 elif [ "$1" == 'run' ]; then
     # run Python script
