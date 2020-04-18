@@ -17,7 +17,7 @@ directory = './images'
 for file in os.listdir(directory):
     if file.endswith('ic_add_location_black_48dp'):
         print(file)
-        img = Image.open(file)
+        img = Image.open('ic_add_location_black_48dp')
         print(img.format, img.size, img.mode)
         # img.rotate(45).show()
 
