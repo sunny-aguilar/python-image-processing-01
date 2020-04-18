@@ -1,4 +1,5 @@
-## python-image-processing-01
+## python-image-processing
+This projects uses the PIL library to manipulate images.
 
 
 
