@@ -16,7 +16,7 @@ function push_commit()
 
 function commit()
 {
-    # commt changes
+    # commt changes only
     git commit -am git.course
 }
 
