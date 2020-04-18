@@ -27,7 +27,7 @@ for file in os.listdir(directory):
         # new size
         newsize = (128, 128)
 
-        img = Image.resize( () )
+        img = Image.resize(newsize)
         # print(img.format, img.size, img.mode)
         # print(file)
 
