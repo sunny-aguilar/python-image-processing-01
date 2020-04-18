@@ -19,7 +19,8 @@ for file in os.listdir(directory):
     # img = Image.open('./images/ic_add_location_black_48dp')
     if not file.endswith('.DS_Store'):
         # file location and name
-        file_loc = './images/' + file
+        # file_loc = './images/' + file
+        file_loc = './images/ic_add_location_black_48dp'
 
         # open the file
         img = Image.open(file_loc)
