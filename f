@@ -13,6 +13,13 @@ function push_commit()
     git push
 }
 
+
+function commit()
+{
+    # commt changes
+    git commit -am git.course
+}
+
 # what to run
 if [ "$1" == 'push' ]; then
     # call function
